@@ -19,18 +19,19 @@ p {
   line-height: 1.5;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 672px) {
   h2 {
     font-size: 35px;
+    text-align: center;
   }
   h1 {
     font-size: 15px;
+    text-align: center !important;
   }
-  h1 {
-    font-size: 25px;
-  }
+
   h3 {
     font-size: 20px;
+    text-align: center;
   }
   p {
     font-size: 12px;
