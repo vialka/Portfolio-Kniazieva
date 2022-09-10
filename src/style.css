@@ -1,0 +1,95 @@
+:root {
+  --primary-color: rgb(53, 134, 53);
+  --background-color: rgb(225, 245, 225);
+  --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  font-size: 75px;
+}
+
+h1 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.5;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.about-me p {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  background: var(--background-color);
+}
+.button-navigator {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.button-navigator a {
+  margin: 20px;
+  border: 0.5px solid var(--primary-color);
+  width: 20%;
+  border-radius: 5px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+
+.button-second a {
+  margin: 20px;
+  border: 0.5px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+.about-press {
+  background: var(--primary-color);
+  color: blanchedalmond;
+}
+
+.about-me {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-content {
+  padding: 30px;
+}
+
+.home-page {
+  display: block;
+  text-align: center;
+}
+
+.mail-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 28px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.app {
+  background-color: var(--background-color);
+}
+
+.bodyblock {
+  text-align: center !important;
+  margin: 0;
+}
